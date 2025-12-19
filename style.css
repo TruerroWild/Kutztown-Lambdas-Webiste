@@ -1,0 +1,21 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom, #512D1E, #FFFFFF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav{
+    padding: 25px;
+    background-color: #643614;
+    border-radius: 10px;
+    width: auto;
+    word-spacing: 20px;
+}
+
+.hav:hover{
+    color: #E1C09D;
+}
