@@ -10,15 +10,25 @@ body{
 }
 
 .nav{
-    padding: 25px;
-    background-color: #643614;
-    border-radius: 10px;
-    width: auto;
-    word-spacing: 20px;
-    text-decoration: none;
+    
+    overflow: none;
 
 }
 
-.nav:hover{
-    color: #E1C09D;
+.nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+.nav a:hover{
+    background-color: #E1C09D;
+    color: #512D1E;
+}
+
+.nav a.active{
+    background-color: #FFFFFF;
+    color: #512D1E;
+    opacity: 50%;
 }
