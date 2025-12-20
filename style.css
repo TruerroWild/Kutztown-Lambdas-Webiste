@@ -6,6 +6,7 @@ body{
     background: linear-gradient(to bottom, #512D1E, #FFFFFF);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    text-align: center;
 }
 
 .nav{
@@ -14,6 +15,8 @@ body{
     border-radius: 10px;
     width: auto;
     word-spacing: 20px;
+    text-decoration: none;
+
 }
 
 .hav:hover{
