@@ -8,14 +8,10 @@ body{
 
 /* Navigation Bar format */
 .nav{
-<<<<<<< HEAD
     width: auto;
     word-spacing: 20px;
     text-decoration: none;
-=======
-    
     overflow: none;
->>>>>>> f2f4fa4cf38ef17e3fb00962c221969708e6be13
 
 }
 
