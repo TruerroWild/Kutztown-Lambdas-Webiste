@@ -8,12 +8,31 @@ body{
 
 /* Navigation Bar format */
 .nav{
+<<<<<<< HEAD
     width: auto;
     word-spacing: 20px;
     text-decoration: none;
+=======
+    
+    overflow: none;
+>>>>>>> f2f4fa4cf38ef17e3fb00962c221969708e6be13
 
 }
 
-.hav:hover{
-    color: #E1C09D;
+.nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+.nav a:hover{
+    background-color: #E1C09D;
+    color: #512D1E;
+}
+
+.nav a.active{
+    background-color: #FFFFFF;
+    color: #512D1E;
+    opacity: 50%;
 }
