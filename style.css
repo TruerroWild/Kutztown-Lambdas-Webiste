@@ -1,34 +1,72 @@
 /* Background format and color */
 body{
-    background: linear-gradient(to bottom, #512D1E, #FFFFFF);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #512D1E;
+    margin: 0;
+}
+
+.content{
     text-align: center;
+    color: white;
+    width: 800px;
+    margin: 80px auto;
+}
+
+/* Images size and format */
+.pics_ku{
+    width: 60%;
+    height: auto;
+}
+
+.logo_ku{
+    width: 30%;
+    height: auto;
 }
 
 /* Navigation Bar format */
-.nav{
-    width: auto;
-    word-spacing: 20px;
-    text-decoration: none;
-    overflow: none;
-
+nav{
+    position: sticky;
+    top: 0;
 }
 
-.nav a{
-    color: #FFFFFF;
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 10px
+}
+
+ul li{
+    margin: 0 10px;
+}
+
+ul li a{
+    color: #643614;
     text-decoration: none;
     font-size: 20px;
     padding: 14px 16px;
+    display: block;
 }
 
-.nav a:hover{
+ul li a:hover{
+    background-color: #512D1E;
+    color: #FFFFFF;
+}
+
+ul li a.active{
+    background-color: #512D1E;
+    font-weight: bold;
+    margin: 0;
+    padding: 14px;
+    color: #FFFFFF;
+}
+
+
+footer{
     background-color: #E1C09D;
-    color: #512D1E;
-}
-
-.nav a.active{
-    background-color: #FFFFFF;
-    color: #512D1E;
-    opacity: 50%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
 }
