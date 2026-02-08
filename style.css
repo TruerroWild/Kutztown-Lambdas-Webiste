@@ -4,11 +4,19 @@ body{
     margin: 0;
 }
 
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
 .content{
     text-align: center;
     color: white;
-    width: 800px;
-    margin: 80px auto;
+    width: 600px;
+    margin: auto;
 }
 
 /* Images size and format */
@@ -35,7 +43,7 @@ ul {
     align-items: center;
     background-color: #FFFFFF;
     margin: 0;
-    padding: 10px
+    padding: 0;
 }
 
 ul li{
@@ -51,18 +59,29 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #512D1E;
+    background-color: #643614;
     color: #FFFFFF;
+    padding: 14px 16px;
 }
 
 ul li a.active{
-    background-color: #512D1E;
+    background-color: #643614;
     font-weight: bold;
     margin: 0;
-    padding: 14px;
+    padding: 14px 16px;
     color: #FFFFFF;
 }
 
+.contact a{
+    background-color: #FFFFFF;
+    color: #512D1E;
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: inline-block;
+}
 
 footer{
     background-color: #E1C09D;
