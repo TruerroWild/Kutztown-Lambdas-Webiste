@@ -5,11 +5,7 @@ body{
 }
 
 h1{
-    font-size: 3em;
-}
-
-h2{
-    font-size: 2em;
+    font-family: arial, sans-serif;
 }
 
 .content{
@@ -21,7 +17,7 @@ h2{
 
 /* Images size and format */
 .pics_ku{
-    width: 60%;
+    width: 80%;
     height: auto;
 }
 
@@ -39,11 +35,15 @@ nav{
 ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
+    background-image: url("images/kulambda_logo.png");
+    background-size: 50px auto;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 ul li{
