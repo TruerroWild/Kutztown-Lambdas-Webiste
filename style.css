@@ -8,6 +8,7 @@ h1{
     font-family: arial, sans-serif;
 }
 
+/* main body section*/
 main{
     text-align: center;
     color: white;
@@ -70,6 +71,7 @@ ul li a.active{
     color: #FFFFFF;
 }
 
+/* Contact form link button*/
 .contact a{
     background-color: #FFFFFF;
     color: #512D1E;
@@ -81,12 +83,31 @@ ul li a.active{
     display: inline-block;
 }
 
+/* Footer design*/
 footer{
     background-color: #E1C09D;
     color: #FFFFFF;
     text-align: center;
-    padding: 20px;
+    padding: 12px;
 }
 
-/*@media (min-width: 600px){*/
+
+/* Tablet size*/
+@media (max-width: 1024px){
+    ul{
+        gap: 2px;
+        background-size: 35px auto;
+    }
+
+    ul li a{
+        font-size: 15px;
+        padding: 12px 12px;
+    }
+
+    .logo_ku{
+        max-width: 40%;
+    }
+
+}
+
 
