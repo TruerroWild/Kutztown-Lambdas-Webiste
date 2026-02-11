@@ -8,7 +8,7 @@ h1{
     font-family: arial, sans-serif;
 }
 
-.content{
+main{
     text-align: center;
     color: white;
     width: 600px;
@@ -17,12 +17,12 @@ h1{
 
 /* Images size and format */
 .pics_ku{
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
 
 .logo_ku{
-    width: 30%;
+    max-width: 30%;
     height: auto;
 }
 
@@ -38,37 +38,35 @@ ul {
     justify-content: left;
     align-items: center;
     background-color: #FFFFFF;
-    margin: 0;
     padding: 0;
+    margin: 0;
     background-image: url("images/kulambda_logo.png");
     background-size: 50px auto;
     background-repeat: no-repeat;
     background-position: right;
+    gap: 5px;
 }
 
 ul li{
-    margin: 0 10px;
+    margin: 0;
 }
 
 ul li a{
     color: #643614;
     text-decoration: none;
     font-size: 20px;
-    padding: 14px 16px;
+    padding: 15px 15px;
     display: block;
 }
 
 ul li a:hover{
     background-color: #643614;
     color: #FFFFFF;
-    padding: 14px 16px;
 }
 
 ul li a.active{
     background-color: #643614;
     font-weight: bold;
-    margin: 0;
-    padding: 14px 16px;
     color: #FFFFFF;
 }
 
@@ -89,3 +87,6 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+/*@media (min-width: 600px){*/
+
