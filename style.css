@@ -1,19 +1,27 @@
+
+*{
+    box-sizing: border-box;
+}
+
 /* Background format and color */
 body{
     background-color: #512D1E;
     margin: 0;
-}
-
-h1{
-    font-family: arial, sans-serif;
+    font-family: sans-serif;
 }
 
 /* main body section*/
 main{
     text-align: center;
     color: white;
-    width: 600px;
-    margin: auto;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.subtitle{
+    font-style: italic;
 }
 
 /* Images size and format */
@@ -36,7 +44,7 @@ nav{
 ul {
     list-style: none;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     background-color: #FFFFFF;
     padding: 0;
@@ -100,7 +108,7 @@ footer{
     }
 
     ul li a{
-        font-size: 15px;
+        font-size: 16px;
         padding: 12px 12px;
     }
 
@@ -108,6 +116,45 @@ footer{
         max-width: 40%;
     }
 
+    .contact a{
+        padding: 24px 44px;
+        font-size: 18px;
+        border-radius: 12px;
+    }
+
 }
 
+/* Phones size*/
+@media (max-width: 600px) {
+    main{
+        font-size: 14px;
+    }
 
+    ul{
+        flex-wrap: wrap;
+        gap: 0;
+        background-size: 30px auto;
+        justify-content: center;
+        background-image: none;
+    }
+
+    ul li a{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .logo_ku{
+        max-width: 60%;
+    }
+
+    .contact a{
+        padding: 18px 36px;
+        font-size: 15px;
+        border-radius: 12px;
+        max-width: 200px;
+    }
+
+    footer{
+        padding: 10px;
+    }
+}
